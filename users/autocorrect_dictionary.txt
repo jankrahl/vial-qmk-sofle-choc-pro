@@ -1,6 +1,7 @@
 :fi:            -> if
 :esle           -> else
 esle:           -> else
+shc             -> sch
 
 :guage     -> gauge
 :the:the:  -> the
