@@ -1,1 +1,3 @@
 SERIAL_DRIVER = vendor
+
+DEFERRED_EXEC_ENABLE = yes
