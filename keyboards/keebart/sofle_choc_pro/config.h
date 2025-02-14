@@ -1,5 +1,8 @@
 #pragma once
 
+#define VIAL_COMBO_ENTRIES 64
+#define DYNAMIC_KEYMAP_MACRO_COUNT 64
+
 #define SERIAL_USART_TX_PIN GP12
 #define USB_VBUS_PIN GP13
 #define SPLIT_HAND_PIN GP21
