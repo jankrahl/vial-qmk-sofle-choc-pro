@@ -2,6 +2,7 @@
 :esle           -> else
 esle:           -> else
 shc             -> sch
+magec           -> magic
 
 :guage     -> gauge
 :the:the:  -> the
