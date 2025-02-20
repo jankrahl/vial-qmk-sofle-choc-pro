@@ -27,3 +27,11 @@ const uint16_t PROGMEM encoder_map[][NUM_ENCODERS][NUM_DIRECTIONS] = {
     [0] = {ENCODER_CCW_CW(KC_VOLD, KC_VOLU), ENCODER_CCW_CW(KC_MPRV, KC_MNXT)},
 };
 #endif
+
+
+void leader_end_user() {
+    if (leader_sequence_one_key(KC_F)) {
+            // Leader, f => Types the below string
+            SEND_STRING("QMK is awesome.");
+    }
+}
